@@ -56,6 +56,54 @@ class _UserDetailsState extends State<UserDetails> {
                 ),
                 'details about me '),
           ),
+          SizedBox(
+            height: 5,
+          ),
+          TextButton(
+            onPressed: () {
+              Navigator.push(
+                  context, MaterialPageRoute(builder: (context) => Porfolio()));
+            },
+            child: myCardTag(
+                'My Projects   ',
+                Icon(
+                  Icons.image,
+                  color: Colors.green,
+                ),
+                'checkout my flutter apps '),
+          ),
+          SizedBox(
+            height: 5,
+          ),
+          TextButton(
+            onPressed: () {
+              Navigator.push(
+                  context, MaterialPageRoute(builder: (context) => Porfolio()));
+            },
+            child: myCardTag(
+                'My technical Stories ',
+                Icon(
+                  Icons.image,
+                  color: Colors.green,
+                ),
+                'learn about flutter and more '),
+          ),
+          SizedBox(
+            height: 5,
+          ),
+          TextButton(
+            onPressed: () {
+              Navigator.push(
+                  context, MaterialPageRoute(builder: (context) => Porfolio()));
+            },
+            child: myCardTag(
+                'Contact Me  ',
+                Icon(
+                  Icons.image,
+                  color: Colors.green,
+                ),
+                'get in contact with me  '),
+          ),
         ],
       )),
     );
